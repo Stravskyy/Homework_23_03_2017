@@ -1,0 +1,108 @@
+html {
+	background-image: url(../images/seigaiha.png);
+	background-repeat: repeat;
+}
+
+body {
+	background-image: url(../images/BA_new_icon.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.MainHeader{
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #333;
+	text-align: center;
+}
+
+.AdditionalHeader {
+	font-size: 20px;
+	font-style: oblique;
+	color: #ccc;
+}
+
+.UnderHeader {
+	font-size: 16px;
+	color#888;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.contents {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: #a9a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+a:active {
+	text-decoration: overline;
+}
+
+.ContentsPart:hover {
+	list-style-image: url(../images/short_arrow_right-512.png);
+	background: #eee;
+}
+
+.SectionHeader {
+	font-size: 35px;
+	font-family: cursive;
+	text-align: justify;
+}
+
+.SectionParagraph {
+	text-indent: 40px;
+	font-size: 18px;
+	color: #222;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.SectionParagraph:first-line {
+	font-size: 1.5em;
+	color: #a83;
+}
+.SectionParagraph:first-letter {
+	font-size: 2em;
+	color: #ea3;
+}
+
+.TableHeader {
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: #666;
+	color: white;
+}
+
+.MainTable {
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+
+}
+
+.TableColons:hover {
+	background: #ccc;
+}
+
+.UnitedLines {
+	background: #a83;
+	color: white;
+}
